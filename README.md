@@ -14,8 +14,6 @@ SplitMate เป็นเว็บแอปพลิเคชันสำหร�
 
 ## สมาชิกกลุ่ม
 
-> ข้อมูลสมาชิกไม่ได้ระบุไว้ในไฟล์ ZIP ที่ใช้จัดทำ README นี้ กรุณาแก้ไขช่องด้านล่างให้ตรงกับสมาชิกและหน้าที่จริงของกลุ่มก่อนส่งงาน
-
 | ลำดับ | รหัสนักศึกษา | ชื่อ-นามสกุล | Emaill | Branch | หน้าที่รับผิดชอบ |
 | :---: | :---: | :--- | :--- | :---: | :--- |
 | 1 | 673380413-9 | ปิยพันธ์ แก้วเก็บคำ | piyapan.k@kkumail.com | piyapan_6733804139_04 | Backend 1 Authentication (JWT/Spring Security), User และ Profile, Bill / BillItem / BillMember / Assignment (CRUD + Pagination), Payment + State Pattern, Notification + Observer Pattern, Global Exception Handler และ Swagger API Documentation |
