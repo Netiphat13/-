@@ -1,4 +1,3 @@
-<img width="2048" height="1972" alt="er" src="https://github.com/user-attachments/assets/331fd3c0-605f-453b-8177-6d33727e0eaa" /># SplitMate — ระบบจัดการและแบ่งบิลค่าใช้จ่าย
 
 SplitMate เป็นเว็บแอปพลิเคชันสำหรับจัดการบิลและแบ่งค่าใช้จ่ายระหว่างเพื่อนหรือสมาชิกในกลุ่ม  
 ผู้ใช้สามารถสมัครสมาชิก เข้าสู่ระบบ สร้างบิล เพิ่มรายการอาหารและราคา แล้วจัดการสมาชิกที่ร่วมบิลได้  
@@ -87,8 +86,7 @@ Supporting Components:
 
 ระบบใช้ฐานข้อมูล PostgreSQL เพื่อจัดเก็บข้อมูลบัญชีผู้ใช้ บิล รายการค่าใช้จ่าย สมาชิก และการชำระเงิน โดยโครงสร้างตารางและความสัมพันธ์ระหว่างตารางแสดงไว้ใน ER Diagram ด้านล่าง
 
-![SplitMate ER Diagram](<img width="2048" height="1972" alt="er" src="https://github.com/user-attachments/assets/6861db59-734b-46e9-b3dd-cce00fba5c4c" />
-)
+![SplitMate ER Diagram]<img width="2048" height="1972" alt="er" src="https://github.com/user-attachments/assets/331fd3c0-605f-453b-8177-6d33727e0eaa" /># SplitMate — ระบบจัดการและแบ่งบิลค่าใช้จ่าย
 
 ### คำอธิบาย ER Diagram
 
