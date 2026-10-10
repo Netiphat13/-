@@ -16,12 +16,13 @@ SplitMate เป็นเว็บแอปพลิเคชันสำหร�
 
 > ข้อมูลสมาชิกไม่ได้ระบุไว้ในไฟล์ ZIP ที่ใช้จัดทำ README นี้ กรุณาแก้ไขช่องด้านล่างให้ตรงกับสมาชิกและหน้าที่จริงของกลุ่มก่อนส่งงาน
 
-| ลำดับ | รหัสนักศึกษา | ชื่อ-นามสกุล | Email | Branch | หน้าที่รับผิดชอบ |
+| ลำดับ | รหัสนักศึกษา | ชื่อ-นามสกุล | Emaill | Branch | หน้าที่รับผิดชอบ |
 | :---: | :---: | :--- | :--- | :---: | :--- |
-| 1 | 673380413-9 | ปิยพันธ์ แก้วเก็บคำ | [piyapan.k@kkumail.com](mailto:piyapan.k@kkumail.com) | `piyapan_6733804139_04` | **Backend 1**<br>Authentication (JWT/Spring Security)<br>User และ Profile<br>Bill / BillItem / BillMember / Assignment (CRUD + Pagination)<br>Payment + State Pattern<br>Notification + Observer Pattern<br>Global Exception Handler<br>Swagger API Documentation |
-| 2 | 673380416-3 | พัทธดนย์ คำนัน | [pattadon.kh@kkumail.com](mailto:pattadon.kh@kkumail.com) | `pattadon_6733804163_04` | **Database & DevOps**<br>Flyway Migration<br>ER Diagram และ Data Dictionary<br>Entity และ Repository ทั้งระบบ<br>Group Module (CRUD + QR/Invite Code)<br>Statistics (JPQL Aggregate)<br>Dockerfile และ Docker Compose<br>Deploy ระบบ และ GitHub Actions (CI/CD) |
-| 3 | 673380426-0 | วรปรัชญ์ พิมพ์อุบล | [woraprat.p@kkumail.com](mailto:woraprat.p@kkumail.com) | `woraprat_6733804260_04` | **Backend 2 & Testing**<br>Split Strategy ทั้ง 5 รูปแบบ<br>Fairness Score และ What-if Simulator<br>Smart Settlement<br>คำนวณ Service Charge / VAT / ส่วนลด<br>Unit Test และ Integration Test<br>Test Report |
-| 4 | 673380434-1 | เนติภัทร ภูครองเพชร | [netiphat.p@kkumail.com](mailto:netiphat.p@kkumail.com) | `netiphat_6733804341_04` | **Frontend**<br>พัฒนา UI จาก Figma ด้วย React<br>เชื่อมต่อ API ทุกหน้า<br>พัฒนา Create Bill Flow ทั้ง 5 ขั้นตอน<br>รองรับ Responsive Design |
+| 1 | 673380413-9 | ปิยพันธ์ แก้วเก็บคำ | piyapan.k@kkumail.com | piyapan_6733804139_04 | Backend 1 Authentication (JWT/Spring Security), User และ Profile, Bill / BillItem / BillMember / Assignment (CRUD + Pagination), Payment + State Pattern, Notification + Observer Pattern, Global Exception Handler และ Swagger API Documentation |
+| 2 | 673380416-3 | พัทธดนย์ คำนัน | pattadon.kh@kkumail.com | pattadon_6733804163_04 | Database + Deployer Flyway Migration, ER Diagram, Data Dictionary, Entity และ Repository ทั้งระบบ, Group Module (CRUD + QR/Invite Code), Statistics (JPQL Aggregate), Dockerfile, Docker Compose, Deploy ระบบ และ GitHub Actions (CI/CD) |
+| 3 | 673380426-0 | วรปรัชญ์ พิมพ์อุบล | woraprat.p@kkumail.com | woraprat_6733804260_04 | Backend 2 + Tester Split Strategy ทั้ง 5 รูปแบบ, Fairness Score, What-if Simulator, Smart Settlement, การคำนวณ Service Charge / VAT / ส่วนลด, Unit Test และ Integration Test, Test Report |
+| 4 | 673380434-1 | เนติภัทร ภูครองเพชร | netiphat.p@kkumail.com | netiphat_6733804341_04 | Frontend พัฒนา UI จาก Figma ด้วย React, เชื่อมต่อ API ทุกหน้า, พัฒนา Create Bill Flow ทั้ง 5 ขั้นตอน, รองรับ Responsive Design |
+
 ## Tech Stack
 
 | ส่วน | เทคโนโลยี |
@@ -324,15 +325,6 @@ API ที่ต้องยืนยันตัวตนจำเป็นต�
 
 > URL ข้างต้นเป็น URL ที่ผู้พัฒนาให้มา ควรตรวจสอบการเข้าใช้งานจริงหลัง deploy และทดสอบ flow สำคัญ เช่น สมัครสมาชิก เข้าสู่ระบบ สร้างบิล เชิญสมาชิก และอัปโหลดสลิป ก่อนส่งงาน
 
-### Deployment checklist
-
-- [x] มี `Dockerfile`
-- [x] มี `docker-compose.yml`
-- [x] มี URL สาธารณะของเว็บไซต์
-- [ ] ยืนยันว่า Environment Variables บน Render ถูกตั้งค่าอย่างปลอดภัย
-- [ ] ตรวจสอบว่าฐานข้อมูล Production ใช้งานได้และ migration ทำงานครบ
-- [ ] ทดสอบฟังก์ชันหลักบน URL จริง
-- [ ] เพิ่ม GitHub Actions สำหรับ Build → Test → Deploy อัตโนมัติ (หากต้องการคะแนนพิเศษ)
 
 ## Project Structure
 
