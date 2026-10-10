@@ -363,9 +363,4 @@ Project_Principles/
 └── README.md
 ```
 
-## Security Notes
 
-- อย่าเผยแพร่รหัสผ่านฐานข้อมูล, API keys หรือ secrets ใน Repository
-- ตั้งค่าข้อมูลเชื่อมต่อ Production ผ่าน Environment Variables ของ Render
-- หากมีการเผยแพร่ credentials ไปแล้ว ให้เปลี่ยนรหัสผ่าน/secret และตรวจสอบประวัติ Git ด้วย
-- ไฟล์อัปโหลด เช่น สลิป ควรใช้พื้นที่จัดเก็บแบบ persistent หรือ object storage หากต้องการให้ไฟล์คงอยู่หลัง redeploy
